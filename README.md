@@ -5,8 +5,9 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 
 ## Completed Problems
 |  Code  | Dfficulty | Acceptance |                                                                              Name                                                                               |    Time     |   Space   |
-| :---:  |   :---:   |    :---:   |                                                                              ---                                                                                |    ---      |  :---:    |
+| :---:  |   :---:   |    :---:   |                                                                              ---                                                                                |    ---      |   :---:   |
 | `0238` | `Medium`  | `67.7%`    | [Product of Array Except Self](leetcode.com/problems/product-of-array-except-self)                                                                              | `O(n)`      | `O(1)`    |
+| `1108` | `Easy`    | `89.7%`    | [Defanging an IP Address](leetcode.com/problems/defanging-an-ip-address)                                                                                        | `O(n logH)` | `O(logH)` |
 | `1742` | `Easy`    | `74.2%`    | [Maximum Numer of Balls in a Box](leetcode.com/problems/maximum-number-of-balls-in-a-box)                                                                       | `O(n logH)` | `O(logH)` |
 | `1769` | `Medium`  | `90.1%`    | [Minimum Number of Operations to Move All Balls to Each Box](leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box)                  | `O(n)`      | `O(n)`    |
 | `1920` | `Easy`    | `91.1%`    | [Build Array from Permutation](leetcode.com/problems/build-array-from-permutation)                                                                              | `O(n)`      | `O(1)`    |
