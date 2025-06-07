@@ -1,6 +1,4 @@
-import os
 from tools import timer
-
 TEST_CASES = [
     [1,2],
     [1,2,3,4],
@@ -35,7 +33,6 @@ def B(nums: list[int]) -> list[int]:
 
 
 if __name__ == "__main__":
-    os.system('cls')
     for i, test in enumerate(TEST_CASES):
         print(f'TEST {i+1} - {test}')
         A(test)
