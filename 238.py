@@ -36,8 +36,8 @@ def B(nums: list[int]) -> list[int]:
 
 if __name__ == "__main__":
     os.system('cls')
-    for test in TEST_CASES:
-        print(f'TEST 1 - {test}')
+    for i, test in enumerate(TEST_CASES):
+        print(f'TEST {i+1} - {test}')
         A(test)
         B(test)
         print()
