@@ -1,6 +1,4 @@
-import os
 from tools import timer
-
 TEST_CASES = [
     "hello",
     "zaz"
@@ -19,7 +17,6 @@ def A(s: str) -> int:
 
 
 if __name__ == "__main__":
-    os.system('cls')
     for i, test in enumerate(TEST_CASES):
         print(f'TEST {i+1} - {test}')
         A(test)
