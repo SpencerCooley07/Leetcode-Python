@@ -9,7 +9,7 @@ TEST_CASES = [
 
 # TIME: O(n)
 # MEM: O(n)
-@timer
+@timer()
 def A(nums: list[int]) -> list[int]:
     lr, rl = [1], [1]
     length = len(nums)
@@ -20,7 +20,7 @@ def A(nums: list[int]) -> list[int]:
 
 # TIME: O(n)
 # MEM: O(1) - Output array in this scenario did not count to MEM
-@timer
+@timer()
 def B(nums: list[int]) -> list[int]:
     n, res = len(nums), [1]
     for f in range(n - 1): res.append(nums[f] * res[-1])

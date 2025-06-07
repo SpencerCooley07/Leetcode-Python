@@ -9,7 +9,7 @@ TEST_CASES = [
 
 # TIME: O(n)
 # MEM: O(1)
-@timer
+@timer()
 def A(nums: list[int]) -> int:
     res, score = 0, nums[0] + nums[1]
     for i in range(1, len(nums), 2):

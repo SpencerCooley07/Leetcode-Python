@@ -8,7 +8,7 @@ TEST_CASES = [
 
 # TIME: O(1)
 # MEM: O(1)
-@timer
+@timer()
 def A(num: int, t: int) -> int:
     return num + 2 * t
 

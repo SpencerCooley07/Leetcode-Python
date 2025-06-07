@@ -8,7 +8,7 @@ TEST_CASES = [
 
 # TIME: O(n)
 # MEM: O(n)
-@timer
+@timer()
 def A(nums: list[int]) -> list[int]:
     return nums + nums
 

@@ -8,7 +8,7 @@ TEST_CASES = [
 
 # TIME: O(n)
 # MEM: O(1)
-@timer
+@timer()
 def A(s: str) -> int:
     score = 0
     for i in range(1, len(s)): score += abs(ord(s[i-1]) - ord(s[i]))

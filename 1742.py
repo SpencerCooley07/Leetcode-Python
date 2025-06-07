@@ -11,7 +11,7 @@ TEST_CASES = [
 
 # TIME: O(n + log H) | H = highLimit
 # MEM: O(n)
-@timer
+@timer()
 def A(lowLimit: int, highLimit: int) -> int:
     res = defaultdict(lambda: 0)
     for num in [sum(map(int, str(num))) for num in range(lowLimit, highLimit + 1)]: res[num] += 1
@@ -19,7 +19,7 @@ def A(lowLimit: int, highLimit: int) -> int:
 
 # TIME: O(n + log H) | More performant by avoiding str conversions
 # MEM: O(n)
-@timer
+@timer()
 def B(lowLimit: int, highLimit: int) -> int:
     def digitSum(n):
         s = 0
@@ -32,7 +32,7 @@ def B(lowLimit: int, highLimit: int) -> int:
 
 # TIME: O(n + log H) | Same as B
 # MEM: O(log H)
-@timer
+@timer()
 def C(lowLimit: int, highLimit: int) -> int:
     def digitSum(n):
         s = 0
