@@ -8,6 +8,7 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 | :---: | --- | --- | --- |
 | `0238` | Product of Array Except Self | O(n) | O(1) |
 | `1742` | Maximum Numer of Balls in a Box | O(n∗logH) | O(logH) |
+| `1769` | Minimum Number of Operations to Move All Balls to Each Box | O(n) | O(n) |
 | `1920` | Build Array from Permutation | O(n) | O(1) |
 | `1929` | Concatenation of Array | O(n) | O(n) |
 | `2769` | Find the Maximum Achievable Number | O(1) | O(1) |
