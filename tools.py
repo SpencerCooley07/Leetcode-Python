@@ -1,7 +1,7 @@
 from time import perf_counter
 from functools import wraps
 
-def timer(n=1):
+def timer(n=10):
     def decorator(func):
         @wraps(func)
         def wrapper(*args, **kwargs):
