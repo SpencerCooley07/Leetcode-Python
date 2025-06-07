@@ -12,7 +12,6 @@ def timer(n=10):
                 stop = perf_counter()
                 total_time += (stop - start)
 
-            print(f'{func.__name__} average over {n} runs: {(total_time/n):.10f}s')
-            return func(*args, **kwargs)
+            print(f'{func.__name__} average over {n} runs: {(total_time/n):.10f}s\nResult: {func(*args, **kwargs)}')
         return wrapper
     return decorator
