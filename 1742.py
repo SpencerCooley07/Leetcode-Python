@@ -1,7 +1,5 @@
-import os
 from tools import timer
 from collections import defaultdict
-
 TEST_CASES = [
     (1,10),
     (5,15),
@@ -48,7 +46,6 @@ def C(lowLimit: int, highLimit: int) -> int:
 
 
 if __name__ == "__main__":
-    os.system('cls')
     for i, test in enumerate(TEST_CASES):
         print(f'TEST {i+1} - {test}')
         A(*test)
