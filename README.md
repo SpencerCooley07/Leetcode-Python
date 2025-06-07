@@ -9,3 +9,4 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 | `0238` | Product of Array Except Self | O(n) | O(1) |
 | `1742` | Maximum Numer of Balls in a Box | O(n∗logH) | O(logH) |
 | `3038` | Maximum Number of Operations With the Same Score I | O(n) | O(1) |
+| `3110` | Score of a String | O(n) | O(1) |
