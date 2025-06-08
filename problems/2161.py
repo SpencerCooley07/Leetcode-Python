@@ -14,7 +14,7 @@ def A(nums: list[int], pivot: int) -> list[int]:
     greater = [g for g in nums if g > pivot]
     return less + [pivot]*(len(nums)-(len(less)+len(greater))) + greater
 
-# TIME: O(n) | Less passes over n hence lower constant k in O(k * n)
+# TIME: O(n) | Less full passes over n hence lower constant k in O(k*n)
 # MEM: O(n)
 @timer()
 def B(nums: list[int], pivot: int) -> list[int]:
