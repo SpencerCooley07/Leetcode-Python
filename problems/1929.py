@@ -10,7 +10,7 @@ TEST_CASES = [
 # MEM: O(n)
 @timer()
 def A(nums: list[int]) -> list[int]:
-    return nums + nums
+    return nums+nums
 
 
 
