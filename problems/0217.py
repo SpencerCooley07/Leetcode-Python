@@ -9,7 +9,7 @@ TEST_CASES = [
 
 # TIME: O(n^2)
 # MEM: O(1)
-@timer(100)
+@timer()
 def A(nums: list[int]) -> bool:
     for i, ie in enumerate(nums):
         for j in range(i+1, len(nums)):
@@ -18,13 +18,13 @@ def A(nums: list[int]) -> bool:
 
 # TIME: O(n)
 # MEM: O(n)
-@timer(100)
+@timer()
 def B(nums: list[int]) -> bool:
     return len(set(nums)) != len(nums)
 
 # TIME: O(n)
 # MEM: O(n)
-@timer(100) # Can be faster in some cases by ending sooner, however B is likely better in most cases
+@timer() # Can be faster in some cases by ending sooner, however B is likely better in most cases
 def C(nums: list[int]) -> bool:
     comparison = set()
     for num in nums:
