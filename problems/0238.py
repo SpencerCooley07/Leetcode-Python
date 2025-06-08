@@ -19,7 +19,7 @@ def A(nums: list[int]) -> list[int]:
 
 
 # TIME: O(n)
-# MEM: O(1) - Output array in this scenario did not count to MEM
+# MEM: O(1) - Output array in this scenario did not count to space complexity
 @timer()
 def B(nums: list[int]) -> list[int]:
     n, res = len(nums), [1]
