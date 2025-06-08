@@ -7,7 +7,7 @@ TEST_CASES = [
 
 
 
-# TIME: O(m * n) | m = len(accounts) and n = len(account)
+# TIME: O(m*n) | m = len(accounts) and n = len(account)
 # MEM: O(1)
 @timer()
 def A(accounts: list[list[int]]) -> int:
