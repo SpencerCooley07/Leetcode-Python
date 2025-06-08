@@ -10,7 +10,7 @@ TEST_CASES = [
 # MEM: O(1)
 @timer()
 def A(celsius: float) -> list[float]:
-    return [celsius + 273.15, celsius * 1.8 + 32]
+    return [celsius+273.15, celsius*1.8 + 32]
 
 
 
