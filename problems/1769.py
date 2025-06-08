@@ -66,7 +66,7 @@ if __name__ == "__main__":
 """
 EXPLANATION FOR D
 ---
-- If the pointer shifts to an empty box, the current num of operations should not change
+If the pointer shifts to an empty box, the current num of operations should not change
 [1,0,0,1,0,0]
  ^              Operations = 3
                 Next iteration there will be 1 left and 1 right
