@@ -10,7 +10,7 @@ TEST_CASES = [
 # MEM: O(n)
 @timer()
 def A(address: str) -> str:
-    return address.replace(".", "[.]")
+    return address.replace(".","[.]")
 
 
 
