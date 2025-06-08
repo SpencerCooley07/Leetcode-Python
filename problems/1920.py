@@ -17,12 +17,8 @@ def A(nums: list[int]) -> list[int]:
 # MEM: O(1)
 @timer()
 def B(nums: list[int]) -> list[int]:
-    for i in range(len(nums)):
-        nums[i] += 1001 * (nums[nums[i]] % 1001)
-
-    for i in range(len(nums)):
-        nums[i] //= 1001
-    
+    for i in range(len(nums)): nums[i] += 1001 * (nums[nums[i]] % 1001)
+    for i in range(len(nums)): nums[i] //= 1001
     return nums
 
 
