@@ -9,7 +9,7 @@ TEST_CASES = [
 
 
 
-# TIME: O(n + log H) | H = highLimit
+# TIME: O(n+log H) | H = highLimit
 # MEM: O(n)
 @timer()
 def A(lowLimit: int, highLimit: int) -> int:
@@ -17,7 +17,7 @@ def A(lowLimit: int, highLimit: int) -> int:
     for num in [sum(map(int, str(num))) for num in range(lowLimit, highLimit + 1)]: res[num] += 1
     return max(res.values())
 
-# TIME: O(n + log H) | More performant by avoiding str conversions
+# TIME: O(n+log H) | More performant by avoiding str conversions
 # MEM: O(n)
 @timer()
 def B(lowLimit: int, highLimit: int) -> int:
@@ -30,7 +30,7 @@ def B(lowLimit: int, highLimit: int) -> int:
     for num in [digitSum(num) for num in range(lowLimit, highLimit + 1)]: res[num] += 1
     return max(res.values())
 
-# TIME: O(n + log H) | Same as B
+# TIME: O(n+log H) | Same as B
 # MEM: O(log H)
 @timer()
 def C(lowLimit: int, highLimit: int) -> int:
