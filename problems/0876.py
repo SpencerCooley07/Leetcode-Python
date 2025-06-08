@@ -61,7 +61,7 @@ if __name__ == "__main__":
 """
 EXPLANATION FOR B
 ---
-- By moving a fast pointer twice as fast as a slow pointer, the slow pointer ends in the middle
+By moving a fast pointer twice as fast as a slow pointer, the slow pointer ends in the middle
 [1,2,3,4,5]
  s
  f
