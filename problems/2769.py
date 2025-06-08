@@ -10,7 +10,7 @@ TEST_CASES = [
 # MEM: O(1)
 @timer()
 def A(num: int, t: int) -> int:
-    return num + 2 * t
+    return num+(2*t)
 
 
 
