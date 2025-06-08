@@ -7,6 +7,7 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 |  Code  |                                                                              Name                                                                               | Dfficulty | Acceptance |
 | :---:  |                                                                              ---                                                                                |   :---:   |    :---:   |
 | `0001` | [Two Sum](https://leetcode.com/problems/two-sum)                                                                                                                | `Easy`    | `55.7%`    |
+| `0049` | [Group Anagrams](https://leetcode.com/problems/group-anagrams)                                                                                                  | `Medium`  | `70.9%`    |
 | `0217` | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                                                                                          | `Easy`    | `63.2%`    |
 | `0238` | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)                                                                      | `Medium`  | `67.7%`    |
 | `0242` | [Valid Anagram](https://leetcode.com/problems/valid-anagram)                                                                                                    | `Easy`    | `66.6%`    |
