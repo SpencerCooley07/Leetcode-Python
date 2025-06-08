@@ -4,7 +4,8 @@ class TreeNode(object):
         self.val = val
         self.left = left
         self.right = right
-    def __str__(self): return f"[{self.val},{self.left},{self.right}]"
+    def __str__(self):
+        return f"[{self.val},{self.left},{self.right}]"
 
 TEST_CASES = [
     TreeNode(10,4,6),
@@ -17,7 +18,7 @@ TEST_CASES = [
 # MEM: O(1)
 @timer()
 def A(root: TreeNode) -> bool:
-    return root.val == root.left + root.right
+    return root.val == (root.left + root.right)
 
 
 
