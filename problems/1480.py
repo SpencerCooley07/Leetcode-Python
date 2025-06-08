@@ -19,7 +19,7 @@ def A(nums: list[int]) -> list[int]:
 
 # TIME: O(n)
 # MEM: O(1)
-# @timer() breaks in place solution
+# @timer() | Breaks in place solution
 def B(nums: list[int]) -> list[int]:
     for i in range(1, len(nums)): nums[i] += nums[i-1]
     print(f"Result: {nums}")
