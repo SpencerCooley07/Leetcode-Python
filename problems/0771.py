@@ -7,7 +7,7 @@ TEST_CASES = [
 
 
 
-# TIME: O(n * m)
+# TIME: O(n*m)
 # MEM: O(1)
 @timer()
 def A(jewels: str, stones: str) -> int:
@@ -17,7 +17,7 @@ def A(jewels: str, stones: str) -> int:
             if jewel == stone: res += 1
     return res
 
-# TIME: O(n + m) | n = len(stones) and m = len(jewels)
+# TIME: O(n+m) | n = len(stones) and m = len(jewels)
 # MEM: O(n)
 @timer() # Better for larger inputs but worse for small inputs
 def B(jewels: str, stones: str) -> int:
