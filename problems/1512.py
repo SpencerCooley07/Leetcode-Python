@@ -22,8 +22,7 @@ def A(nums: list[int]) -> int:
 # MEM: O(n)
 @timer()
 def B(nums: list[int]) -> int:
-    count = defaultdict(int)
-    res = 0
+    res, count = 0, defaultdict(int)
     for num in nums:
         res += count[num]
         count[num] += 1
