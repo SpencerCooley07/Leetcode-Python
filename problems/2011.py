@@ -12,8 +12,8 @@ TEST_CASES = [
 @timer()
 def A(operations: list[str]) -> int:
     x = 0
-    for op in operations:
-        if op[1] == "+": x += 1
+    for operation in operations:
+        if operation[1] == "+": x += 1
         else: x -= 1
     return x
 
