@@ -6,6 +6,7 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 ## Completed Problems
 |  Code  | Dfficulty | Acceptance |                                                                              Name                                                                               |    Time     |   Space   |
 | :---:  |   :---:   |    :---:   |                                                                              ---                                                                                |    ---      |   :---:   |
+| `0001` | `Easy`    | `55.7%`    | [Two Sum](https://leetcode.com/problems/two-sum)                                                                                                                | `O(n)`      | `O(n)`    |
 | `0238` | `Medium`  | `67.7%`    | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)                                                                      | `O(n)`      | `O(1)`    |
 | `0242` | `Easy`    | `66.6%`    | [Valid Anagram](https://leetcode.com/problems/valid-anagram)                                                                                                    | `O(n)`      | `O(1)`    |
 | `0412` | `Easy`    | `74.3%`    | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz)                                                                                                            | `O(n)`      | `O(n)`    |
