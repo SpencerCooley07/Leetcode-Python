@@ -11,6 +11,7 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 | `0217` | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)                                                                                          | `Easy`    | `63.2%`    |
 | `0238` | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)                                                                      | `Medium`  | `67.7%`    |
 | `0242` | [Valid Anagram](https://leetcode.com/problems/valid-anagram)                                                                                                    | `Easy`    | `66.6%`    |
+| `0347` | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)                                                                                | `Easy`    | `64.5%`    |
 | `0412` | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz)                                                                                                            | `Easy`    | `74.3%`    |
 | `0771` | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)                                                                                            | `Easy`    | `89.2%`    |
 | `0876` | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)                                                                            | `Easy`    | `80.5%`    |
