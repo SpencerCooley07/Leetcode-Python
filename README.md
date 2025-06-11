@@ -32,3 +32,5 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 | `2769` | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number)                                                          | `Easy`    | `90.9%`    |
 | `3038` | [Maximum Number of Operations With the Same Score I](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i)                          | `Easy`    | `51.9%`    |
 | `3110` | [Score of a String](https://leetcode.com/problems/score-of-a-string)                                                                                            | `Easy`    | `91.9%`    |
+| `3442` | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i)                        | `Easy`    | `61.3%`    |
+| `3576` | [Transform Array to All Equal Elements](https://leetcode.com/problems/transform-array-to-all-equal-elements)                                                    | `Easy`    | `61.3%`    |
