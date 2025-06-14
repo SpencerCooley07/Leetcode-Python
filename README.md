@@ -30,6 +30,7 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 | `2235` | [Add Two Integers](https://leetcode.com/problems/add-two-integers)                                                                                                 | `Easy`    | `88.2%`    |
 | `2236` | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children)                                                                           | `Easy`    | `84.9%`    |
 | `2469` | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature)                                                                                   | `Easy`    | `90.1%`    |
+| `2566` | [Maximum Difference by Remapping a Digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit)                                                   | `Easy`    | `72.7%`    |
 | `2769` | [Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number)                                                             | `Easy`    | `90.9%`    |
 | `3038` | [Maximum Number of Operations With the Same Score I](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-i)                             | `Easy`    | `51.9%`    |
 | `3110` | [Score of a String](https://leetcode.com/problems/score-of-a-string)                                                                                               | `Easy`    | `91.9%`    |
