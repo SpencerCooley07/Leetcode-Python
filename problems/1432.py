@@ -9,8 +9,8 @@ TEST_CASES = [
 
 
 
-# TIME: 
-# MEM: 
+# TIME: O(n^2)
+# MEM: O(n)
 @timer()
 def A(num: int) -> int:
     def getMinNum(num: str) -> int:
