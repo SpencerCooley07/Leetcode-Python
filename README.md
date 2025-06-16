@@ -27,6 +27,7 @@ DISCLAIMER: These solutions may not be the most optimal, they are simply the bes
 | `1920` | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation)                                                                         | `Easy`    | `91.1%`    |
 | `1929` | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array)                                                                                     | `Easy`    | `90.5%`    |
 | `2011` | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)                           | `Easy`    | `89.6%`    |
+| `2016` | [Maximum Difference Between Increasing Elements](https://leetcode.com/problems/maximum-difference-between-increasing-elements)                                     | `Easy`    | `60.8%`    |
 | `2161` | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot)                                                 | `Medium`  | `89.9%`    |
 | `2235` | [Add Two Integers](https://leetcode.com/problems/add-two-integers)                                                                                                 | `Easy`    | `88.2%`    |
 | `2236` | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children)                                                                           | `Easy`    | `84.9%`    |
